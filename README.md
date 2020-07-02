@@ -24,7 +24,24 @@ Happy coding and cheers,
 
 Louis, Riot
 
+## Table of Contents
 
+- [Riot frontend challenge](#riot-frontend-challenge)
+  - [Table of Contents](#table-of-contents)
+    - [User stories](#user-stories)
+    - [Design](#design)
+    - [API](#api)
 
+### User stories
 
+- [x] As a guest I am able to sign in.
+- [ ] As a user I am able to sign out.
+- [ ] As a user I am able to see all my employees.
+- [ ] As a user I am able to see a specific employee.
+- [ ] As a user I am able to edit a specific employee.
 
+### Design
+
+In `/design` directory you can find previews of User Interface, design guidelines and all the required assets.
+
+### API
