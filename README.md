@@ -8,11 +8,11 @@
 
 Hi there!
 
-Since you got here, you're probably taking a part in our recruitment process for Front-end developer position, right?
+Since you're here, you're probably taking part in our recruitment process for a front-end developer position, right?
 
-We're super happy to hear that! Getting right to it — the main purpose of this test is to check out your frontend skills. We'd like to get to know your approach of solving the following problems:
+We're super happy to hear that! Getting right to it — the main purpose of this test is to check out your front-end skills. We'd like to get to know your approach of solving the following problems:
 
-- Implement functionalities for the User stories (first one is already done).
+- Implement functionalities from user stories (first one is already done).
 - Use Vuejs UI library with its related ecosystem parts [Vue Apollo](https://apollo.vuejs.org/).
 - Provide the best possible User Experience (being strict with the designs, responsiveness, hover/focus states of interactive elements everything to your liking and ideas).
 
@@ -33,14 +33,14 @@ Louis, CTO @ Riot
 
 ### User stories
 
-- [ ] I am able to list the attacks paginated 5 by 5 from recent one to old one.
+- [ ] I am able to list the attacks paginated 5 by 5 from the most recent ones to the old ones.
 - [ ] When I click on load more, it loads 5 more attacks if there are some.
 - [ ] If the Campaign is NULL, the text should be `Sent individually`
 - [ ] There is an hover state on the table row, see the design.
 
 ### Design
 
-In `/design` directory you can find a preview of User Interface, design guidelines and all the required assets.
+In `/design` directory you can find a preview of the User Interface, design guidelines and all the required assets.
 
 Icons can be found [HERE](https://heroicons.dev/)
 
