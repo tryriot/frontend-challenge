@@ -13,7 +13,7 @@ Since you're here, you're probably taking part in our recruitment process for a 
 We're super happy to hear that! Getting right to it — the main purpose of this test is to check out your front-end skills. We'd like to get to know your approach of solving the following problems:
 
 - Implement functionalities from user stories (first one is already done).
-- Use Vuejs UI library with its related ecosystem parts [Vue Apollo](https://apollo.vuejs.org/).
+- Use Vuejs library with its related ecosystem parts [Vue Apollo](https://apollo.vuejs.org/).
 - Provide the best possible User Experience (being strict with the designs, responsiveness, hover/focus states of interactive elements everything to your liking and ideas).
 
 Feel free to open an issue if you got any questions or suggestions! Once it's ready, send us a repository link at louis@tryriot.com.
