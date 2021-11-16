@@ -35,14 +35,16 @@ Louis, CTO @ Riot
 ### User stories
 
 - [ ] The count on the top represent the total number of employees
-- [ ] I am able to list the employees with paginated 10 by 10.
-- [ ] When I click on load more, it loads 10 more employees if there are some.
+- [ ] I am able to list the employees paginated 10 by 10.
+- [ ] The page should be vertically scrollable.
+- [ ] When I click on "show more employees" button, it loads 10 more employees if there are some.
 - [ ] When I use the search, it will show me results based on employee name. If no employee found it will show the "No result for "search string"" with the icon.
-- [ ] By using the select on the right, I can filter employees based on their status (All employees - active employees - deactivated employees - archived employees)
+- [ ] By using the select on the right, I can filter employees based on their status (All employees - active employees - deactivated employees - archived employees).
 - [ ] I can select multiple employees or select all using the top checkbox, when I'm in selection mode (right screen), it will remove the filter select and show the number of selected employees with the button deactivate/activate.
 - [ ] The button "deactivate" is shown if the selection contains a majority of active employees and vice versa.
-- [ ] When the data is loading, I can see a skeleton
+- [ ] When the data is loading, I can see a 5 rows skeleton.
 - [ ] If an employee does not have a profile picture, it should show a circle with his/her initials and a random color based on his/her initals.
+- [ ] If the locale is NULL, take "en-US" by default and show the appropriate flag.
 
 ### Design
 
@@ -50,7 +52,7 @@ You can find a Figma file of the User Interface [here](https://www.figma.com/com
 
 ### API
 
-You will find a graphQL API on this endpoint: <https://riot-technical-test-api.herokuapp.com/v1/graphql>
+You will find a graphQL API on this endpoint: <https://relaxing-pipefish-44.hasura.app/v1/graphql>
 
 you can use a Graphiql online website: <https://lucasconstantino.github.io/graphiql-online/> to preview and try the API.
 
