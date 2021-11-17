@@ -39,9 +39,9 @@ Louis, CTO @ Riot
 - [ ] The page should be vertically scrollable.
 - [ ] When I click on "show more employees" button, it loads 10 more employees if there are some.
 - [ ] When I use the search, it will show me results based on employee name. If no employee found it will show the "No result for "search string"" with the icon.
-- [ ] By using the select on the right, I can filter employees based on their status (All employees - active employees - deactivated employees - archived employees).
+- [ ] The select on the right is by default on "All employees" which will show active and deactivated employees, I can filter employees based on their status (All employees - active employees - deactivated employees - archived employees).
 - [ ] I can select multiple employees or select all using the top checkbox, when I'm in selection mode (right screen), it will remove the filter select and show the number of selected employees with the button deactivate/activate.
-- [ ] The button "deactivate" is shown if the selection contains a majority of active employees and vice versa.
+- [ ] The button "deactivate" is shown if the selection contains a majority of active employees and vice versa. No button is shown if an archived employee is in the selection.
 - [ ] When the data is loading, I can see a 5 rows skeleton.
 - [ ] If an employee does not have a profile picture, it should show a circle with his/her initials and a random color based on his/her initals.
 - [ ] If the locale is NULL, take "en-US" by default and show the appropriate flag.
@@ -54,7 +54,7 @@ You can find a Figma file of the User Interface [here](https://www.figma.com/com
 
 You will find a graphQL API on this endpoint: <https://relaxing-pipefish-44.hasura.app/v1/graphql>
 
-you can use a Graphiql online website: <https://lucasconstantino.github.io/graphiql-online/> to preview and try the API.
+you can use a GraphiQL online website: <https://lucasconstantino.github.io/graphiql-online/> to preview and try the API.
 
 ### Technicall: 30 minutes debriefing
 
