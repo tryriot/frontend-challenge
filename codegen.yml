@@ -1,0 +1,7 @@
+generates:
+  src/graphql.types.ts:
+    schema: https://relaxing-pipefish-44.hasura.app/v1/graphql
+    plugins:
+      - "typescript"
+      - "typescript-operations"
+      - "typescript-vue-apollo"
