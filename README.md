@@ -15,6 +15,7 @@ We're super happy to hear that! Getting right to it — the main purpose of this
 - Implement functionalities from user stories.
 - Use Vuejs library with Typescript.
 - Use the GraphQL api endpoint to get the data.
+- Use Tailwind CSS for CSS.
 - Provide the best possible User Experience (being strict with the designs, responsiveness, hover/focus states of interactive elements everything to your liking and ideas).
 
 Feel free to open an issue if you got any questions or suggestions! Once it's ready, send us a repository link at louis@tryriot.com.
@@ -34,21 +35,17 @@ Louis, CTO @ Riot
 
 ### User stories
 
-- [ ] The count on the top represent the total number of employees
-- [ ] I am able to list the employees paginated 10 by 10.
-- [ ] The page should be vertically scrollable.
-- [ ] When I click on "show more employees" button, it loads 10 more employees if there are some.
-- [ ] When I use the search, it will show me results based on employee name. If no employee found it will show the "No result for "search string"" with the icon.
-- [ ] The select on the right is by default on "All employees" which will show active and deactivated employees, I can filter employees based on their status (All employees - active employees - deactivated employees - archived employees).
-- [ ] I can select multiple employees or select all using the top checkbox, when I'm in selection mode (right screen), it will remove the filter select and show the number of selected employees with the button deactivate/activate.
-- [ ] The button "deactivate" is shown if the selection contains a majority of active employees and vice versa. No button is shown if an archived employee is in the selection.
-- [ ] When the data is loading, I can see a 5 rows skeleton.
-- [ ] If an employee does not have a profile picture, it should show a circle with his/her initials and a random color based on his/her initals.
-- [ ] If the locale is NULL, take "en-US" by default and show the appropriate flag.
+- [ ] List all the profiles with the appropriated timer duration / color from the GraphQL API.
+- [ ] When I click play the timer should start to countdown.
+- [ ] When a timer is playing, I should be able to pause the timer.
+- [ ] When a timer is paused, I should be able to resume the timer.
+- [ ] I can play multiple timer in the same time.
+- [ ] When the timer is 0, the button restart is shown and give the ability to restart the timer to its duration.
+- [ ] See a circular progress bar that updates represents how far through their timer they are
 
 ### Design
 
-You can find a Figma file of the User Interface [here](https://www.figma.com/community/file/1042474100556545669).
+You can find a Figma file of the User Interface [here](https://www.figma.com/community/file/1042474100556545669/Riot-frontend-challenge).
 
 ### API
 
@@ -58,4 +55,4 @@ you can use a GraphiQL online website: <https://lucasconstantino.github.io/graph
 
 ### Technicall: 30 minutes debriefing
 
-Once finished, send me your repository link by email: louis@tryriot.com & book a call [HERE](https://calendly.com/louis-cibot/code)
+Once finished, send me your repository link by email: louis@tryriot.com & book a call [HERE](https://calendly.com/louis-cibot/30min)
