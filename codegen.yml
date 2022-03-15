@@ -1,7 +1,12 @@
 generates:
   src/graphql.types.ts:
     schema: https://relaxing-pipefish-44.hasura.app/v1/graphql
+    documents:
+      - "src/graphql/*.ts"
     plugins:
       - "typescript"
       - "typescript-operations"
       - "typescript-vue-apollo"
+    config:
+      withCompositionFunctions: true
+      vueCompositionApiImportFrom: vue
