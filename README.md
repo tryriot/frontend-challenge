@@ -56,3 +56,11 @@ you can use a GraphiQL online website: <https://lucasconstantino.github.io/graph
 ### Technicall: 30 minutes debriefing
 
 Once finished, send me your repository link by email: louis@tryriot.com & book a call [HERE](https://calendly.com/louis-cibot/30min)
+
+
+### Video example
+https://user-images.githubusercontent.com/18526471/158417795-39ca3f3f-a1b4-4d90-b94d-0dc36344ad5e.mov
+
+
+
+
