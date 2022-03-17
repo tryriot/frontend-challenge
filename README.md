@@ -51,7 +51,7 @@ You can find a Figma file of the User Interface [here](https://www.figma.com/com
 
 You will find a graphQL API on this endpoint: <https://relaxing-pipefish-44.hasura.app/v1/graphql>
 
-you can use a GraphiQL online website: <https://lucasconstantino.github.io/graphiql-online/> to preview and try the API.
+you can use a GraphiQL online website: <https://cloud.hasura.io/public/graphiql?endpoint=https://relaxing-pipefish-44.hasura.app/v1/graphql> to preview and try the API.
 
 ### Technicall: 30 minutes debriefing
 
